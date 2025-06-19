@@ -1,0 +1,53 @@
+div{
+    background-color: yellow;
+
+}
+
+h1{
+    color: red;
+}
+
+/* Media query Sintaxis:
+media query de 500 px para arriba 
+dentro de lass llaves pongo los estilos css
+*/ 
+/*
+@media screen and (min-width :500px) {
+    div{
+        background-color: blue; 
+
+    }
+    h1{
+        color: green;
+    }
+    
+} */
+
+/* media query de 500 px para abajo */ 
+
+@media screen and (max-width :500px) {
+    div{
+        background-color: gray; 
+
+    }
+    h1{
+        color: fuchsia;
+    }
+    
+}
+/*Media query de 800px para abajo y 200px para arriba
+Aplicara de 200px a 800px, cuando este en este rango se aoplicara 
+todos los estilos que esten dentro de las llaves
+*/
+
+@media screen  and (max-width :800px) and (min-width: 200px) {
+    div{
+        background-color: forestgreen
+
+    } 
+    h1{
+        color: brown;
+    }
+    
+    
+}
